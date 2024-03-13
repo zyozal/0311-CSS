@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    li:first-child {
+      color: red;
+    }
+    li:nth-child(2n) {
+      background: gray;
+    }
+    li:nth-child(2n+1) {
+      background: yellow;
+    }
+    li:nth-child(2) {
+      font-style: italic;
+    }
+    li:last-child {
+      color: green;
+    }
+    
+    li:nth-child(-n + 2) {
+
+    }
+
+    li:nth-child() ~ li{
+
+    }
+
+
+    .dotted {
+      border: 2px dotted aqua;
+    }
+    li {
+      border: 2px dashed violet;
+    }
+
+    .con p {
+      color: aqua;
+      background: pink;
+    }
+
+    .con p:last-child {
+      color: orange;
+      border: 5px dotted darkmagenta;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li class="dotted">리스트1</li>
+    <li class="dotted">리스트2</li>
+    <li>리스트3</li>
+    <li>리스트4</li>
+    <li>리스트5</li>
+    <li>리스트6</li>
+    <li>리스트7</li>
+
+
+    <div class="con">
+      <p>dsdasds</p>
+      <p>dsadasdsad</p>
+      <p>dsadadas</p>
+    </div>
+  </ul>
+</body>
+</html>
