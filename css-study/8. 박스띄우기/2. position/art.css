@@ -1,0 +1,175 @@
+body {
+  width: 100%;
+  background-color: darkgray;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#wrapper{
+  width: 1200px;
+  height: 950px;
+  margin: 0 auto;
+}
+
+header {  
+  height: 200px;
+  text-align: center;
+  background-color: orange;
+}
+h1 {
+  font-weight: 700;
+  font-size: 100px;
+  padding-top: 20px;
+  line-height: 80px;
+  color: #fff;
+}
+span {
+  font-size: 20px;
+  display: block;
+}
+.stit {
+  height: 20px;
+  background-color: lightgray;
+}
+
+/* end header */
+
+
+.container {
+  height: 700px;
+  
+ }
+
+
+
+
+.side-menu {
+  width: 20%;
+  height: 700px;
+  float: left;
+  background-color: #fff;
+}
+.side-menu h3 {
+  width: 300px;
+  height: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #fff;
+  background-color: brown;
+}
+.side-menu ul li {
+  margin-top: 20px;
+  line-height: 10px;
+  margin-left: 20px;
+}
+.side-menu ul li a {
+  color: #000;
+}
+.side-menu ul li a:hover {
+  border-bottom: 1px dashed #000;
+}
+
+/* end con1 */
+
+
+
+
+.main-content {
+  width: 60%;
+  height: 700px;
+  float: left;
+  background-color: darkgray;
+}
+.art-piece {
+  height: 15%;
+  margin: 10px;
+  color: midnightblue;
+}
+
+
+.title{
+ height: 30px;
+ line-height: 30px;
+ font-size: large;
+ font-weight: 600;
+ background-color: midnightblue;
+}
+.title a {
+  color: #fff;
+  text-decoration: none;
+}
+.title a:hover{
+  color: orange;
+}
+.artist {
+  font-size: large;
+  font-weight: 600;
+  line-height: 50px;
+}
+.detail {
+  font-size: small;
+}
+
+/* end con2 */
+
+
+.banner {
+  width: 20%;
+  height: 700px;
+  float: left;
+  background-color: #fff;
+}
+.banner h3 {
+  height: 15%;
+  margin: 10px;
+  line-height: 30px;
+}
+.all {
+  font-weight: 700;
+  text-decoration: underline; 
+
+  color: darkgray;
+}
+.love {
+  font-weight: 700;
+  text-decoration: underline; 
+  color: orange;
+}
+strong {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.link {
+  margin: 10px;
+  font-size: small;
+}
+.link li a {
+  color: #000;
+  font-weight: 700;
+  line-height: 30px;
+}
+.link li a:hover {
+  border-bottom: 1px dashed #000;
+}
+.link li span {
+  font-size: small;
+}
+
+/* end con3 */
+
+
+
+ footer {
+  height: 50px;
+  text-align: center;
+  font-size: small;
+  background-color: brown;
+ }
+
+
+ /* end footer */
