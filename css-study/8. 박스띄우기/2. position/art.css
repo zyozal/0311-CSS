@@ -165,11 +165,22 @@ strong {
 
 
  footer {
-  height: 50px;
+  height: 5%;
+  line-height: 40px;
   text-align: center;
   font-size: small;
+  color: #fff;
   background-color: brown;
  }
 
+ footer a {
+  color: #fff;
+  text-decoration: none;
+ }
+
+ footer span {
+  font-size: small;
+  display: inline;
+ }
 
  /* end footer */
